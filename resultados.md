@@ -11,10 +11,10 @@ Sobre a tabela a seguir:
 | Tipo de saída | Valor da saída | USB | Pilha (~1,47V) |
 | ------------- | -------------- | --- | -------------- |
 | Digital       | 0              | 0   | 0              |
-| Digital       | 1              | 3   | 2,8            |
 | Analógica     | 0              | 0   | 0              |
 | Analógica     | 200            | 0,6 | 0,54           |
 | Analógica     | 400            | 1,2 | 1,1            |
 | Analógica     | 600            | 1,8 | 1,65           |
 | Analógica     | 800            | 2,4 | 2,2            |
 | Analógica     | 1023           | 3   | 2,8            |
+| Digital       | 1              | 3   | 2,8            |
