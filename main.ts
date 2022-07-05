@@ -7,7 +7,7 @@ input.onButtonPressed(Button.A, function () {
             # . . # .
             # # # . .
             `)
-        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P0, digital)
         digital = 1
     } else {
         basic.showLeds(`
@@ -17,7 +17,7 @@ input.onButtonPressed(Button.A, function () {
             # . . # #
             # # # . #
             `)
-        pins.digitalWritePin(DigitalPin.P0, 1)
+        pins.digitalWritePin(DigitalPin.P0, digital)
         digital = 0
     }
 })
@@ -30,7 +30,7 @@ input.onButtonPressed(Button.B, function () {
             # . . # .
             # . . # .
             `)
-        pins.analogWritePin(AnalogPin.P0, 0)
+        pins.analogWritePin(AnalogPin.P0, analógico)
         analógico = 200
     } else if (analógico == 200) {
         basic.showLeds(`
@@ -40,7 +40,7 @@ input.onButtonPressed(Button.B, function () {
             # . . # .
             # . . # #
             `)
-        pins.analogWritePin(AnalogPin.P0, 200)
+        pins.analogWritePin(AnalogPin.P0, analógico)
         analógico = 400
     } else if (analógico == 400) {
         basic.showLeds(`
@@ -50,7 +50,7 @@ input.onButtonPressed(Button.B, function () {
             # . . # #
             # . . # #
             `)
-        pins.analogWritePin(AnalogPin.P0, 400)
+        pins.analogWritePin(AnalogPin.P0, analógico)
         analógico = 600
     } else if (analógico == 600) {
         basic.showLeds(`
@@ -60,7 +60,7 @@ input.onButtonPressed(Button.B, function () {
             # . . # #
             # . . # #
             `)
-        pins.analogWritePin(AnalogPin.P0, 600)
+        pins.analogWritePin(AnalogPin.P0, analógico)
         analógico = 800
     } else if (analógico == 800) {
         basic.showLeds(`
@@ -70,7 +70,7 @@ input.onButtonPressed(Button.B, function () {
             # . . # #
             # . . # #
             `)
-        pins.analogWritePin(AnalogPin.P0, 800)
+        pins.analogWritePin(AnalogPin.P0, analógico)
         analógico = 1023
     } else {
         basic.showLeds(`
@@ -80,7 +80,7 @@ input.onButtonPressed(Button.B, function () {
             # . . # #
             # . . # #
             `)
-        pins.analogWritePin(AnalogPin.P0, 1023)
+        pins.analogWritePin(AnalogPin.P0, analógico)
         analógico = 0
     }
 })
